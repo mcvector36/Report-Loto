@@ -20,8 +20,10 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_gravity="bottom"
-        android:background="?attr/colorPrimary"
+        android:background="@color/loto_green"
         app:tabGravity="fill"
-        app:tabMode="fixed" />
+        app:tabMode="fixed"
+        app:tabTextColor="@color/loto_light"
+        app:tabSelectedTextColor="@color/loto_light" />
 
 </android.support.design.widget.CoordinatorLayout>
