@@ -1,3 +1,4 @@
+
 package com.mcvector36.report_loto
 
 import android.os.Bundle
@@ -11,15 +12,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // Ascunde bara de sus "Report-Loto"
+        supportActionBar?.hide()
+
         setContentView(R.layout.activity_main)
 
         val sectionsPagerAdapter =
-                SectionsPagerAdapter(this, supportFragmentManager)
+                SectionsPagerAdapter(
+                        this,
+                        supportFragmentManager
+                )
 
-        val viewPager: ViewPager = findViewById(R.id.view_pager)
+        val viewPager: ViewPager =
+                findViewById(R.id.view_pager)
+
         viewPager.adapter = sectionsPagerAdapter
 
-        val tabs: TabLayout = findViewById(R.id.tabs)
+        val tabs: TabLayout =
+                findViewById(R.id.tabs)
+
         tabs.setupWithViewPager(viewPager)
     }
 }
