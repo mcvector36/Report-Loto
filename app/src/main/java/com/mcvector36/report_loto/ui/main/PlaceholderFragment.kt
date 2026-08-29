@@ -45,8 +45,8 @@ class PlaceholderFragment : Fragment() {
                 arguments?.getInt(ARG_SECTION_NUMBER) ?: 1
 
         val url = when (sectionNumber) {
-            1 -> "https://www.loto.ro/?p=3872"
-            2 -> "https://www.loto.ro/?p=3899"
+            1 -> "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/649_si_noroc/rezultate_extragere.html"
+            2 -> "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/joker_si_noroc_plus/rezultate_extrageri.html"
             else -> "https://www.loto.ro/"
         }
 
