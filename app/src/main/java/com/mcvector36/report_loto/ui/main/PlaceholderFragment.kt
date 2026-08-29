@@ -38,6 +38,8 @@ class PlaceholderFragment : Fragment() {
         webSettings.loadWithOverviewMode = true
         webSettings.useWideViewPort = true
 
+        webSettings.cacheMode = WebSettings.LOAD_NO_CACHE
+
         webView.webViewClient = WebViewClient()
         webView.webChromeClient = WebChromeClient()
 
