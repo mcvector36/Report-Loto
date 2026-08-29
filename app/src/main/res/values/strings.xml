@@ -1,5 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Report-Loto</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+
+    <string name="tab_text_1">Loto 6/49</string>
+    <string name="tab_text_2">Noroc</string>
+
 </resources>
