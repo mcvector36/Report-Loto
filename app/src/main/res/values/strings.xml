@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Report-Loto</string>
+    <string name="app_name">Report Loto</string>
 
-    <string name="tab_text_1">Loto 6/49</string>
-    <string name="tab_text_2">Noroc</string>
+    <string name="tab_text_1">6/49</string>
+    <string name="tab_text_2">Joker</string>
 
 </resources>
